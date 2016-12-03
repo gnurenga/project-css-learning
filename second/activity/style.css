@@ -1,14 +1,22 @@
 body {
-    background-color: purple;
+    background-color: #ccffcc;
+    color: #336600;
 }
 
-h1 {
-    color: white;
+h1  {
+    background-color: #336600;
+    color: #ccffcc;
 }
+
 p {
-    color: fuchsia;
+    border: 3px solid;
 }
 
-ul {
-    background-color: silver;
+ul, ol   {
+    background-color: #ffff99;
+}
+
+/*selector here*/
+h1, h2 {
+    text-decoration: underline;
 }
